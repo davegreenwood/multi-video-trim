@@ -6,7 +6,7 @@ the lag. From the detected start times - use FFMPEG to trim the videos.
 Developed for a particular purpose, but fundamentally should be useful for trimming
 and aligning multiple videos that have been shot gen-locked with sync sound.
 
-Note: the FFMPEG comand uses a rotate - adjust to taste!
+Note: the FFMPEG command uses a rotate - adjust to taste!
 
 ## Install
 
