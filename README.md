@@ -1,9 +1,12 @@
 # Trim multiple video files
 
-Trim multiple video files using a common Timecode start time, to a common end time.
+Trim multiple video files using cross correlation on the audio tracks to calculate
+the lag. From the detected start times - use FFMPEG to trim the videos.
 
-Developed for a particular purpose, but fundmentaly should be useful for trimming
+Developed for a particular purpose, but fundamentally should be useful for trimming
 and aligning multiple videos that have been shot gen-locked with sync sound.
+
+Note: the FFMPEG comand uses a rotate - adjust to taste!
 
 ## Install
 
