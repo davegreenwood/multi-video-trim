@@ -7,7 +7,7 @@ from times import yield_vf_ss_t
 
 
 def _get_outfile(vfname, save_path):
-    """Helper to from save name."""
+    """Helper to form the save name."""
     fname = os.path.join(save_path, os.path.split(vfname)[-1])
     return fname.replace(".mov", ".mp4")
 
