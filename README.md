@@ -3,6 +3,9 @@
 Trim multiple video files using cross correlation on the audio tracks to calculate
 the lag. From the detected start times - use FFMPEG to trim the videos.
 
+The script also probes the video for duration - and finishes them at the same time,
+the end result are videos that are aligned start to finish.
+
 Developed for a particular purpose, but fundamentally should be useful for trimming
 and aligning multiple videos that have been shot gen-locked with sync sound.
 
@@ -26,4 +29,3 @@ Help is available with `trim --help`, and a complete example is:
         "/Volumes/data1/aj_emo/emo_video/scene-01/004_0002.mov" \
         "/Volumes/data1/aj_emo/emo_video/scene-01/005_0002.mov" \
         "/Volumes/data1/aj_emo/emo_video/scene-01/006_0002.mov"
-
